@@ -18,7 +18,7 @@ import { Routine } from './routines/entities/routine.entity';
     AuthModule,
     UsersModule,
     ConfigModule.forRoot({
-      envFilePath: `.${process.env.NODE_ENV}.env`,
+      envFilePath: '.env',
       isGlobal: true,
     }),
     TypeOrmModule.forRoot({
